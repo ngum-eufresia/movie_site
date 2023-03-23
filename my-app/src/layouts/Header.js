@@ -35,36 +35,41 @@ export default function Header() {
 
                     <h6> jssh ksjssi ksdjdssjshshsosl </h6>
                 </div>
+            </Container>
 
+            <Container>
+                <p className="ps-3 fw-bolder">hjfjfhfhfg</p>
                 <Row>
-                    <Col md={2} className = "text-end ">
-                        <Button variant="outline-primary">dfggdserr</Button>
-                    </Col>
-                    <Col md={2}>
-                        <Button variant="outline-primary">ssjdjffj wejrhr djjff</Button>
+                    <Col md={4} className="text-start ps-4 pe-0 ">
+                        <div className="d-flex gap-4">
+                            <Button variant="outline-primary">dfggdserr</Button>
+                            <Button variant="outline-primary">
+                                ssjdjffj wejrhr djjff
+                            </Button>
+                        </div>
                     </Col>
                     <Col md={2}>
                         <div className="d-flex">
-                            <p>286</p>
+                            <p className="pe-3 fw-bolder fs-2">286</p>
                             <p>wkerrbrrrb</p>
                         </div>
                     </Col>
                     <Col md={2}>
                         <div className="d-flex">
-                            <p>286</p>
+                            <p className="pe-3 fw-bolder fs-2">286</p>
                             <p>wkerrbrrrb</p>
                         </div>
                     </Col>
                     <Col md={2}>
                         <div className="d-flex">
-                            <p>286</p>
+                            <p className="pe-3 fw-bolder fs-2">286</p>
                             <p>wkerrbrrrb</p>
                         </div>
                     </Col>
-                    <Col md={2}>
+                    <Col md={2} className="">
                         <div className="d-flex">
-                            <p>286</p>
-                            <p>wkerrbrrrb</p>
+                            <p className="pe-3 fw-bolder fs-2 text-align-center">286</p>
+                            <p>wkerrbrrrbfffff</p>
                         </div>
                     </Col>
                 </Row>

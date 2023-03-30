@@ -15,12 +15,13 @@ import {
   MDBDropdownItem,
 } from 'mdb-react-ui-kit';
 
-export default function Foot() {
+export default function Footer() {
   const [showNavRight, setShowNavRight] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' light bgColor='light'>
-      {/* <MDBContainer fluid>
+    <div></div>
+    // <MDBNavbar expand='lg' light bgColor='light'>
+      /* <MDBContainer fluid>
         <MDBNavbarToggler
           type='button'
           data-target='#navbarRightAlignExample'
@@ -62,7 +63,7 @@ export default function Foot() {
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
-      </MDBContainer> */}
-    </MDBNavbar>
+      </MDBContainer> */
+    // </MDBNavbar>
   );
 }

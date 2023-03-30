@@ -2,8 +2,8 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Header from "./Header"
-import Main from "./main"
-import Footer from "./footer"
+import Main from "./Main"
+import Footer from "./Footer"
 
 export default function Body () {
 

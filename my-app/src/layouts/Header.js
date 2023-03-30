@@ -6,7 +6,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 
 export default function Header() {
-    return (
+    return ( 
         <div>
             <Container fluid className="pt-4 head">
                 <Row>
@@ -64,6 +64,7 @@ export default function Header() {
                         <div className="d-flex">
                             <p className="pe-3 fw-bolder fs-2">286</p>
                             <p>wkerrbrrrb</p>
+
                         </div>
                     </Col>
                     <Col md={2} className="">
